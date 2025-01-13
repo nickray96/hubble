@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "hubble")(type "KiCad")(uri "${KIPRJMOD}/hubble.kicad_sym")(options "")(descr ""))
+)

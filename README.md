@@ -11,4 +11,7 @@ A switched USB hub.
 ## Errata
 * USB5744 does not enter runtime, looks for I2C host. Remove R14 and R17, puts hub in headless mode.
 
- 
+# Rev 2.0:
+* Enable USB5744 port power toggling
+* Optionally drive mux sel via Raspberry Pi Pico W (useful for home automation)
+* Add DisplayPort mux so I can stop using my monitor OSD (TBD which connectors I'll use)

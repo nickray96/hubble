@@ -8391,74 +8391,6 @@
 		(uuid "c9d2f3e9-10ef-4d02-bea9-f2507a3c503e")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 173.99 40.64 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00732f09-7bbe-4675-a030-d5cffcec8336")
-		(property "Reference" "C18"
-			(at 173.99 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 173.9837 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 173.99 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 173.99 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c69ac32-b572-40d9-9b69-b5ec266680f6")
-		)
-		(pin "2"
-			(uuid "7b9c09c7-f31b-457b-956a-f14931584ee7")
-		)
-		(instances
-			(project "hubble"
-				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 375.92 194.31 0)
 		(unit 1)
@@ -10197,6 +10129,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ae1216c-4de6-46bd-9e14-564eecbf4745")
+		(property "Reference" "C7"
+			(at 233.68 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 240.284 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a03a6f0-60b0-44d2-a926-ab300b60acb6")
+		)
+		(pin "2"
+			(uuid "07d7adf7-78ab-4c40-8b05-e5c131febf3c")
+		)
+		(instances
+			(project "hubble"
+				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "hubble:SN080104RSER")
 		(at 96.52 157.48 0)
 		(unit 1)
@@ -10301,74 +10300,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 182.88 38.1 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3eef0689-4d9e-4804-a363-392bfab98645")
-		(property "Reference" "C16"
-			(at 182.88 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 182.88 35.052 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 182.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fae08ccd-211c-40fb-a2e4-ff8682d24e78")
-		)
-		(pin "2"
-			(uuid "d08b0b4d-e453-4d79-af82-b62273c2c8d4")
-		)
-		(instances
-			(project "hubble"
-				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 166.37 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -10432,6 +10363,73 @@
 			(project "hubble"
 				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 173.99 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41629474-82ce-4f45-8c20-f9a06b251ef0")
+		(property "Reference" "C18"
+			(at 170.688 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 177.8 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 173.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 173.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73b4553f-d016-473d-8738-a79f42956f7d")
+		)
+		(pin "2"
+			(uuid "049d02ba-e540-481d-b2af-9f37e7e6b8a2")
+		)
+		(instances
+			(project "hubble"
+				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10778,74 +10776,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 173.99 54.61 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5572896d-d83a-405a-80ec-cbfd4a8b0b98")
-		(property "Reference" "C17"
-			(at 173.99 48.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 173.9837 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 173.99 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 173.99 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0695d675-dd94-476a-a765-b4802c069a69")
-		)
-		(pin "2"
-			(uuid "de9fd2cb-7a13-4147-97ea-a9002c0e0c20")
-		)
-		(instances
-			(project "hubble"
-				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 233.68 209.55 0)
 		(mirror y)
@@ -10974,6 +10904,73 @@
 			(project "hubble"
 				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 245.11 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "612dc52e-43fb-40ea-a5a5-a201b647e599")
+		(property "Reference" "C11"
+			(at 241.808 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 249.174 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 245.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 245.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcdc3cf8-54db-45af-9872-c9543408fa2e")
+		)
+		(pin "2"
+			(uuid "7f4231e2-e92e-4f5d-b9a1-8baa6b6d58ae")
+		)
+		(instances
+			(project "hubble"
+				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12488,74 +12485,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 182.88 52.07 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f7b0660-0143-48ed-9e92-a1883ea738b6")
-		(property "Reference" "C15"
-			(at 182.88 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 182.88 49.276 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 182.88 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e369600-2080-4dd9-9472-16c9ec38c401")
-		)
-		(pin "2"
-			(uuid "62b5ec29-cbde-46b5-bd62-e2bcb0ebe4be")
-		)
-		(instances
-			(project "hubble"
-				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:TPD1E05U06DPY")
 		(at 59.69 186.69 270)
 		(unit 1)
@@ -13435,6 +13364,73 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 182.88 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7c40787-99d6-474e-bdc8-07c986abb541")
+		(property "Reference" "C17"
+			(at 179.832 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 186.69 50.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 182.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2620fa30-3623-471e-906d-654887dc8b6e")
+		)
+		(pin "2"
+			(uuid "a09b62d0-823c-4230-bf61-a1eb8a11dd24")
+		)
+		(instances
+			(project "hubble"
+				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 146.05 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -13566,6 +13562,73 @@
 			(project "hubble"
 				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 245.11 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae6d6a8b-becf-4557-a668-b8d73fa1630b")
+		(property "Reference" "C8"
+			(at 242.57 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 248.92 50.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 245.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 245.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b318321-3303-44b1-9ec6-78e3c41ee7a0")
+		)
+		(pin "2"
+			(uuid "563c9d59-37d1-402b-a153-3ec40ebbb12b")
+		)
+		(instances
+			(project "hubble"
+				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13912,16 +13975,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 245.11 52.07 270)
-		(mirror x)
+		(at 173.99 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b9f1cc7d-c439-49eb-84a2-abf559550c06")
-		(property "Reference" "C8"
-			(at 245.11 56.134 90)
+		(uuid "b5d47283-bd32-4ed4-9c0c-7c7bcae40e14")
+		(property "Reference" "C15"
+			(at 170.688 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13929,15 +13991,15 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 245.11 58.674 90)
+			(at 178.054 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 245.11 52.07 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13946,7 +14008,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 52.07 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13955,7 +14017,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 245.11 52.07 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13964,15 +14026,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "629227db-9703-4002-9cfd-e5c3abe09643")
+			(uuid "7c199755-df02-4d65-b0c6-1284f5b7938d")
 		)
 		(pin "2"
-			(uuid "e86b37a2-6cbf-454b-82ae-09e9b529b69a")
+			(uuid "0b496559-dc8a-4416-a924-f3b6d2ba15e0")
 		)
 		(instances
 			(project "hubble"
 				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
-					(reference "C8")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -14040,75 +14102,6 @@
 			(project "hubble"
 				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 236.22 46.99 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf56161b-d36a-4e96-921c-a26244f7d767")
-		(property "Reference" "C10"
-			(at 236.2137 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 236.2137 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 236.22 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 236.22 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5135dbbb-aec6-40a1-91d3-8eee28391aea")
-		)
-		(pin "2"
-			(uuid "a8eaac45-9b97-48b8-815f-524dafd7b0ff")
-		)
-		(instances
-			(project "hubble"
-				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -14245,75 +14238,6 @@
 			(project "hubble"
 				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 245.11 44.45 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c683e8af-7254-4c84-ab65-d0671e6b9c24")
-		(property "Reference" "C7"
-			(at 245.1037 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 245.1037 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 245.11 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 245.11 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1adf6f5c-8c7e-4129-83cf-1a8bbdfe9dee")
-		)
-		(pin "2"
-			(uuid "bc981d63-48f4-4122-8be3-9b78359ad1fb")
-		)
-		(instances
-			(project "hubble"
-				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14689,74 +14613,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 236.22 54.61 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d49f27c3-ea86-49ab-a491-9db532b88968")
-		(property "Reference" "C11"
-			(at 236.22 57.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 236.22 60.452 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 236.22 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 236.22 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0d33227-f3f5-46dc-9fd4-f5563421db93")
-		)
-		(pin "2"
-			(uuid "780ee2e3-8935-44da-8045-a133c3251ff3")
-		)
-		(instances
-			(project "hubble"
-				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 160.02 180.34 90)
 		(mirror x)
 		(unit 1)
@@ -15032,6 +14888,73 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 236.22 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e876a9b3-9eb9-4d26-8b84-8e737d3f0c65")
+		(property "Reference" "C10"
+			(at 233.172 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 240.284 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 236.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97b8e89c-88d8-4dc0-a1ca-0a3adcba74b5")
+		)
+		(pin "2"
+			(uuid "20a30061-bfc7-4882-a478-6a63145487ae")
+		)
+		(instances
+			(project "hubble"
+				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 297.18 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15229,6 +15152,73 @@
 			(project "hubble"
 				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 182.88 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eedee377-c1e5-42e6-89cc-839d5c045353")
+		(property "Reference" "C16"
+			(at 179.578 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 186.69 36.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef3f5bf6-9cd2-432d-891b-9488ac251a16")
+		)
+		(pin "2"
+			(uuid "a3f66c51-3972-4581-8894-88d58f69cb37")
+		)
+		(instances
+			(project "hubble"
+				(path "/d0f71eae-4e39-4e1d-9623-da47c3fc9379/ac6308d2-96e6-4dd0-b180-611aac56e436"
+					(reference "C16")
 					(unit 1)
 				)
 			)

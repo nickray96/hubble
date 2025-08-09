@@ -3900,7 +3900,7 @@
 		(uuid "52470120-a648-4484-bb15-fcef105f88b4")
 	)
 	(hierarchical_label "I2C_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 281.94 130.81 180)
 		(effects
 			(font

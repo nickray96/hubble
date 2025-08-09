@@ -108,6 +108,7 @@
         "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -693,7 +694,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "MCU",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -709,6 +710,22 @@
     [
       "d0f71eae-4e39-4e1d-9623-da47c3fc9379",
       "Root"
+    ],
+    [
+      "92612e89-8849-43e8-8f31-9523cdacc78a",
+      "Power"
+    ],
+    [
+      "ac6308d2-96e6-4dd0-b180-611aac56e436",
+      "Hub"
+    ],
+    [
+      "232ecac2-ced2-4249-8a47-9bcaf6ed003e",
+      "DisplayPort"
+    ],
+    [
+      "678d5385-1d13-4484-9f74-a74d93242413",
+      "MCU"
     ]
   ],
   "text_variables": {}

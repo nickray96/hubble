@@ -19,10 +19,22 @@
 		(uuid "187a1e7f-f4d7-479f-ad86-f232face604a")
 	)
 	(junction
+		(at 205.74 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d326201-afaa-4ed3-81a4-c24124b47e00")
+	)
+	(junction
 		(at 203.2 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2ece590-a216-4fde-84c3-d0f051f494ef")
+	)
+	(junction
+		(at 203.2 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd294d9f-1eca-4307-99c7-6df4bc8eef17")
 	)
 	(junction
 		(at 214.63 168.91)
@@ -102,6 +114,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 165.1) (xy 254 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a8d303-c879-4249-aa51-f6078c293c5e")
+	)
+	(wire
+		(pts
 			(xy 214.63 168.91) (xy 254 168.91)
 		)
 		(stroke
@@ -149,6 +171,16 @@
 			(type default)
 		)
 		(uuid "6fddca22-7f31-4bed-a5a9-a3c3cfcd003e")
+	)
+	(wire
+		(pts
+			(xy 203.2 157.48) (xy 254 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70da6322-e453-4364-ad65-2644217bd196")
 	)
 	(wire
 		(pts
@@ -209,6 +241,16 @@
 			(type default)
 		)
 		(uuid "bf3825ee-c39b-4567-ac36-a384ea25ebeb")
+	)
+	(wire
+		(pts
+			(xy 205.74 160.02) (xy 254 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd8a178-a98d-4636-aac6-705921b4d690")
 	)
 	(wire
 		(pts
@@ -297,6 +339,46 @@
 		(pin "MUX_SEL" input
 			(at 254 168.91 180)
 			(uuid "1f76f191-c613-4f1f-a9c2-6635aaa593e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" bidirectional
+			(at 254 157.48 180)
+			(uuid "fb0ddc64-c9ea-4fb4-be4d-1ff6306ed5bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 254 160.02 180)
+			(uuid "f7bbf29a-7d69-4cbf-bb1d-b9146ac76e01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{DP_RST}" input
+			(at 254 181.61 180)
+			(uuid "46abc85a-42ad-457e-a070-fc4d283d303f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{MUX_SEL}" input
+			(at 254 165.1 180)
+			(uuid "05c1c0ac-8c80-42c3-850d-86e8826db503")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -399,6 +481,16 @@
 		(pin "VBUS_DET_2" input
 			(at 194.31 184.15 0)
 			(uuid "e34a8f7f-2639-4ea1-b531-202646b2bb9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{MUX_SEL}" output
+			(at 194.31 165.1 0)
+			(uuid "6aecfaca-9d8d-4870-a2f2-a8be4a4dfe1d")
 			(effects
 				(font
 					(size 1.27 1.27)

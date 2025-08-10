@@ -6,10 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "Hubble")
-		(date "2025-08-08")
+		(date "2025-08-10")
 		(rev "2.0")
 		(company "Nick's Desk")
-		(comment 1 "Switched USB3 Hub")
+		(comment 1 "Basically a KVM now")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
